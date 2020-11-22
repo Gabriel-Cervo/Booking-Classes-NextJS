@@ -1,6 +1,7 @@
-import Nav from '../components/nav'
+import { NextPage } from 'next';
+import Nav from '../components/nav';
 
-export default function IndexPage() {
+const IndexPage: NextPage = () => {
   return (
     <div>
       <Nav />
@@ -10,5 +11,7 @@ export default function IndexPage() {
         </h1>
       </div>
     </div>
-  )
-}
+  );
+};
+
+export default IndexPage;
