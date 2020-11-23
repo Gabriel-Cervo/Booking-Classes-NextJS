@@ -8,8 +8,11 @@
   },
   "dependencies": {
     "next": "latest",
+    "pg-promise": "^10.8.0",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "serverless-mysql": "^1.5.4",
+    "sql-template-strings": "^2.2.2"
   },
   "devDependencies": {
     "@types/node": "^14.14.9",
@@ -18,16 +21,16 @@
     "@typescript-eslint/parser": "^4.8.1",
     "autoprefixer": "10.0.2",
     "eslint": "^7.14.0",
-    "eslint-plugin-react": "^7.21.5",
-    "postcss": "8.1.7",
-    "prettier": "^2.2.0",
-    "tailwindcss": "^2.0.1",
-    "typescript": "^4.1.2",
     "eslint-config-prettier": "^6.11.0",
     "eslint-loader": "^4.0.2",
     "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.5",
+    "postcss": "8.1.7",
     "postcss-flexbugs-fixes": "4.2.1",
-    "postcss-preset-env": "^6.7.0"
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.2.0",
+    "tailwindcss": "^2.0.1",
+    "typescript": "^4.1.2"
   },
   "license": "MIT"
 }
