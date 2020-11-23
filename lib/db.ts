@@ -9,8 +9,8 @@ const db = mysql({
   },
 });
 
-// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export default {
+  // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
   query: async (query) => {
     try {
       const results = await db.query(query);
